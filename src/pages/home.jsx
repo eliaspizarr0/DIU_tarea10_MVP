@@ -10,7 +10,7 @@ export const HomePage = () => {
       <img src={LogoUSM} height={100} alt='logo rree' /><br />
       <NavBar />
       <img src={imagenact} height={385} alt='logo act' /><br />
-      <h2>Página de Inicio</h2>
+      <h2>Links relevantes</h2>
     </div>
   )
 }

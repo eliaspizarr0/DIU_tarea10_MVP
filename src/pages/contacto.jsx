@@ -9,6 +9,11 @@ export const HomePage = () => {
       <img src={LogoUSM} height={100} alt='logo rree' /><br />
       <NavBar />
       <h2>Contacto</h2>
+      <h3>Sede Concepción</h3>
+          <h5>Arteaga Alemparte 943</h5>
+          <h5>Hualpén, Concepción</h5>
+          <h5>Tel: (+56-41) 2407622</h5>
+          <h5>rree.concepcion@usm.cl</h5>
     </div>
   )
 }
