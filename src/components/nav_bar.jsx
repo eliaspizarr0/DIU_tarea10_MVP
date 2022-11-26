@@ -17,7 +17,33 @@ export const NavBar = () => {
       >
         Quienes somos
       </NavLink>
-    </nav>
+    
+
+  <NavLink
+    className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
+    to='/noticias'
+  >
+    Noticias
+  </NavLink>
+
+
+
+  <NavLink
+    className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
+    to='/publicaciones'
+  >
+    Publicaciones
+  </NavLink>
+
+
+  <NavLink
+    className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
+    to='/contacto'
+  >
+    Contacto
+  </NavLink>
+
+</nav>
   )
 }
 
