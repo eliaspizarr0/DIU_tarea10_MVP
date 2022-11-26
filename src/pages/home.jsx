@@ -1,11 +1,12 @@
 import React from 'react'
 
 import NavBar from '../components/nav_bar'
+import LogoUSM from '../assets/rree.png'
 
 export const HomePage = () => {
   return (
     <div className='page'>
-      <h1 className='page__title'>Frontend Sample App</h1>
+      <img src={LogoUSM} height={100} alt='logo rree' /><br />
       <NavBar />
       <h2>Página de Inicio</h2>
     </div>
