@@ -2,6 +2,7 @@ import React from 'react'
 
 import NavBar from '../components/nav_bar'
 import LogoUSM from '../assets/rree.png'
+import imagenquienes from '../assets/quienes_somos.png'
 
 export const HomePage = () => {
   return (
@@ -10,6 +11,9 @@ export const HomePage = () => {
       <NavBar />
       <h2>Quienes somos</h2>
       <h4>La Dirección de Relaciones Estudiantiles contribuye a la formación integral de la comunidad estudiantil de todos los Campus y Sedes de la USM. Está a cargo de proveer apoyo psicosocial, asistencial y de fomento, con el objetivo de favorecer la formación de profesionales durante su vida universitaria, especialmente atendiendo al legado testamentario de nuestro fundador.</h4>
+      
+      <img src={imagenquienes} height={700} alt='img quienes' /><br />
+      
     </div>
   )
 }
